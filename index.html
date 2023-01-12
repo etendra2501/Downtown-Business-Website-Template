@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downtown</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+		<nav id="nav">
+			<a href="https://urban.bookie0.repl.co/">
+				<h3>Downtown</h3>
+			</a>
+
+			<div class="links">
+				<a href="https://urban.bookie0.repl.co/#services"><span>Services</span></a>	
+
+				<a href="https://urban.bookie0.repl.co/#about"><span>About</span></a>
+
+				<a href="https://urban.bookie0.repl.co/#pricing"><span>Pricing</span></a>
+
+				<a href="https://urban.bookie0.repl.co/#videoConf"><span>VideoConf</span><span class="new">New</span></a>
+
+				<a href="https://urban.bookie0.repl.co/#contact"><span>Contact</span></a>
+
+				<button>Let's get started!</button>
+			</div>
+
+			<div class="hamburger" onclick="nav();">
+				<div class="line line1"></div>
+
+				<div class="line line2"></div>
+
+				<div class="line line3"></div>
+			</div>
+		</nav>
+
+		<main>
+			<section class="landing" id="landing">
+				<div class="text slide-in">
+					<div class="inner">
+					<h1>Downtown</h1>
+	
+					<p>The marketing tool, perfect for your business.</p>
+
+					<div class="buttons">
+						<button>Let's get started!</button>
+	
+						<button class="secondary">View demo</button>
+					</div>
+					</div>
+				</div>
+
+				<div class="media slide-in">
+					<img src="media/corporate-images/urban.png" class="slide-in">
+				</div>
+			</section>
+
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="trusted" viewBox="0 0 1440 800" width="1440" height="500" version="1.1" preserveAspectRatio="none"><path d="M0 623L60 599.7C120 576.3 240 529.7 360 505.2C480 480.7 600 478.3 720 495.5C840 512.7 960 549.3 1080 552.8C1200 556.3 1320 526.7 1380 511.8L1440 497L1440 801L1380 801C1320 801 1200 801 1080 801C960 801 840 801 720 801C600 801 480 801 360 801C240 801 120 801 60 801L0 801Z" fill="#016EEA" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+
+			<section class="trusted">
+				<div class="inner">
+					<h2>Trusted by</h2>
+	
+					<div class="brands">
+						<img src="media/brands/google.png" class="slide-in">
+	
+						<img src="media/brands/apple.png" class="slide-in">
+	
+						<img src="media/brands/netflix.png" class="slide-in">
+	
+						<img src="media/brands/spotify.png" class="slide-in">
+	
+						<img src="media/brands/nike.png" class="slide-in">
+					</div>
+				</div>
+			</section>
+
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="what" viewBox="0 0 1440 800" width="1440" height="500" version="1.1" preserveAspectRatio="none"><path d="M0 175L60 198.3C120 221.7 240 268.3 360 292.8C480 317.3 600 319.7 720 302.5C840 285.3 960 248.7 1080 245.2C1200 241.7 1320 271.3 1380 286.2L1440 301L1440 0L1380 0C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0L0 0Z" fill="#016EEA" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+	
+			<section class="what">
+				<div class="media slide-in">
+					<img src="media/corporate-images/what.png">
+				</div>
+	
+				<div class="text slide-in">
+					<h2>What we are</h2>
+	
+					<p><b>Downtown</b> is that tool that you and your team need. It provides exceptional services that truly help your business advance. We're primarily a marketing tool, but we're also the solution to all your technical problems.</p>
+	
+					<p>We're designed for maximum effiency and maximum gain, so that your company always benefits the most.</p>
+					<p>At <b>Downtown</b>, marvelous things happen.</p>
+				</div>
+			</section>
+
+		<!--	<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="400" viewBox="0 0 1440 205" fill="none" class="transition top">
+				<g clip-path="url(#clip0_128_35)">
+					<path d="M0 119L60 127.8C120 136.7 240 154.3 360 146.3C480 138.3 600 104.7 720 71.5001C840 38.3001 960 5.70006 1080 1.00006C1200 -3.69994 1320 19.7 1380 31.3L1440 43.0001V330H1380C1320 330 1200 330 1080 330C960 330 840 330 720 330C600 330 480 330 360 330C240 330 120 330 60 330H0V119Z" fill="#E6E7EB"/>
+				</g>
+			</svg>-->
+
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="services" viewBox="0 0 1440 800" width="1440" height="500" version="1.1" preserveAspectRatio="none"><path d="M0 623L60 599.7C120 576.3 240 529.7 360 505.2C480 480.7 600 478.3 720 495.5C840 512.7 960 549.3 1080 552.8C1200 556.3 1320 526.7 1380 511.8L1440 497L1440 801L1380 801C1320 801 1200 801 1080 801C960 801 840 801 720 801C600 801 480 801 360 801C240 801 120 801 60 801L0 801Z" fill="#e6e7eb" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+
+			<section class="services" id="services">
+				<h2>Services</h2>
+
+				<p>Our amazing tools for achieving maximum productivity.</p>
+
+				<div class="container">
+					<div class="inner">
+						<div class="service slide-in">
+							<h4>Calendar</h4>
+		
+							<img src="media/icons/calendar.png">
+							
+							<p>With our well-designed calendar, keep track of all your meetings, deadlines, reminders all in one spot.</p>
+						</div>
+		
+						<div class="service slide-in">
+							<h4>Packages</h4>
+		
+							<img src="media/icons/packages.png">
+							
+							<p>Packages contain the neccessary framework to get what needs to be done...done!</p>
+						</div>
+		
+						<div class="service slide-in">
+							<h4>Analytics</h4>
+		
+							<img src="media/icons/analytics.png">
+							
+							<p>All your analytics are securely stored with a dashboard where you can view your data easily.</p>
+						</div>
+					</div>
+
+					<div class="inner">
+						<div class="service slide-in">
+							<h4>Knowledge</h4>
+	
+							<img src="media/icons/knowledge.png">
+							
+							<p>All our tools and services know lots of things to aide your business. They also intuitively learn from previous actions to work better.</p>
+						</div>
+	
+						<div class="service slide-in">
+							<h4>Time</h4>
+	
+							<img src="media/icons/time.png">
+							
+							<p>We know time and deadlines are important, so that's why any action you take with us is speedy and fast.</p>
+						</div>
+	
+						<div class="service slide-in">
+							<h4>Travel</h4>
+	
+							<img src="media/icons/travel.png">
+							
+							<p>Need to work on the go? No problem! All you need will be adapted to fit your needs and function wherever you are.</p>
+						</div>
+					</div>
+				</div>
+
+				<button>Learn more</button>
+			</section>	
+
+			<!--<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="400" viewBox="0 0 1440 213" fill="none" class="transition bottom">
+				<path d="M0 213L60 197.8C120 182.7 240 152.3 360 135C480 117.7 600 113.3 720 128.5C840 143.7 960 178.3 1080 181.2C1200 184 1320 155 1380 140.5L1440 126V0H1380C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0H0V213Z" fill="#E6E7EB"/>
+			</svg>-->
+
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="testimonials" viewBox="0 0 1440 800" width="1440" height="500" version="1.1" preserveAspectRatio="none"><path d="M0 175L60 198.3C120 221.7 240 268.3 360 292.8C480 317.3 600 319.7 720 302.5C840 285.3 960 248.7 1080 245.2C1200 241.7 1320 271.3 1380 286.2L1440 301L1440 0L1380 0C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0L0 0Z" fill="#e6e7eb" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+
+			<section class="testimonials">
+				<div class="text">
+					<h2>Testimonials</h2>
+
+					<p>What people are saying.</p>
+				</div>
+
+				<div class="container">
+					<div class="testimonial">
+							<div class="person">
+								<div class="inner">
+									<img src="media/people/john.png">
+								</div>
+
+								<div class="name">
+									<h4>John Doe</h4>
+
+									<h5>Entrepreneur</h5>
+								</div>
+							</div>
+
+						<p>Wow, a beautiful product! Amazing! It always helped us, and is still useful today!</p>
+					</div>
+
+					<div class="testimonial slide-in">
+							<div class="person">
+								<div class="inner">
+									<img src="media/people/jane.png">
+								</div>
+
+								<div class="name">
+									<h4>Jane Doe</h4>
+
+									<h5>CEO</h5>
+								</div>
+							</div>
+
+						<p>Downtown makes everything so much easier! Definitely helped us, a must-have.</p>
+					</div>
+
+					<div class="testimonial slide-in">
+							<div class="person">
+								<div class="inner">
+									<img src="media/people/julia.png">
+								</div>
+
+								<div class="name">
+									<h4>Julia Doe</h4>
+
+									<h5>Designer</h5>
+								</div>
+							</div>
+
+						<p>Simple and straightforward, but with so many options. </p>
+					</div>
+				</div>
+
+				<img src="media/corporate-images/testimonials.png" class="slide-in">
+			</section>
+
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="values" viewBox="0 0 1440 800" width="1440" height="500" version="1.1" preserveAspectRatio="none"><path d="M0 623L60 599.7C120 576.3 240 529.7 360 505.2C480 480.7 600 478.3 720 495.5C840 512.7 960 549.3 1080 552.8C1200 556.3 1320 526.7 1380 511.8L1440 497L1440 801L1380 801C1320 801 1200 801 1080 801C960 801 840 801 720 801C600 801 480 801 360 801C240 801 120 801 60 801L0 801Z" fill="#e6e7eb" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+
+			<section class="values">
+				<div class="left">
+					<div class="value slide-in">
+						<img src="media/icons/earth.png">
+
+						<div class="text">
+							<h4>Earth</h4>
+
+							<p>Energy efficient, with the Earth in mind.</p>
+						</div>
+					</div>
+
+					<div class="value slide-in">
+						<img src="media/icons/security.png">
+
+						<div class="text">
+							<h4>Security</h4>
+
+							<p>Secure, end-to-end encrypted data.</p>
+						</div>
+					</div>
+
+					<div class="value slide-in">
+						<img src="media/icons/peace-of-mind.png">
+
+						<div class="text">
+							<h4>Peace of mind</h4>
+
+							<p>Rest easy knowing all your problems are being taken care of.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="right slide-in">
+					<h1>Values</h1>
+
+					<p>At <b>Downtown</b>, we strive to deliver our best performance to you.</p>
+
+					<button>Learn more</button>
+				</div>
+			</section>
+
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="about" viewBox="0 0 1440 800" width="1440" height="500" version="1.1" preserveAspectRatio="none"><path d="M0 175L60 198.3C120 221.7 240 268.3 360 292.8C480 317.3 600 319.7 720 302.5C840 285.3 960 248.7 1080 245.2C1200 241.7 1320 271.3 1380 286.2L1440 301L1440 0L1380 0C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0L0 0Z" fill="#e6e7eb" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+
+			<section class="about" id="about">
+				<div class="container">
+					<div class="text slide-in">
+						<h2>About us</h2>
+	
+						<p>Like you, we’re a bunch of creators and innovators. Like you, we searched for for a marketing tool that would help us expand our businesses. Like you, we weren’t satisfied with what we found.</p>
+	
+						<p>And that’s where <b>Downtown</b> comes in. We were once in your position, so we know exactly how frustrating it feels to be lost in the fast-moving world we live in today.</p>
+	
+						<p>We are confident <b>Downtown</b> shall transform and propel your company forward.</p>
+					</div>
+
+					<div class="media slide-in">
+						<img src="media/corporate-images/about.png">
+					</div>
+				</div>
+				
+				<button>Learn more</button>
+			</section>			
+		</main>
+
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="visual" viewBox="0 0 1440 800" width="1440" height="500" version="1.1" preserveAspectRatio="none"><path d="M0 623L60 599.7C120 576.3 240 529.7 360 505.2C480 480.7 600 478.3 720 495.5C840 512.7 960 549.3 1080 552.8C1200 556.3 1320 526.7 1380 511.8L1440 497L1440 801L1380 801C1320 801 1200 801 1080 801C960 801 840 801 720 801C600 801 480 801 360 801C240 801 120 801 60 801L0 801Z" fill="#016EEA" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+		
+		<section class="pricing" id="pricing">
+			<h2>Pricing</h2>			
+
+			<p>Different plans to match your team's preferences.</p>
+
+			<div class="plans">
+				<div class="outer slide-in">
+					<div class="plan regular">
+						<img src="media/corporate-images/standard.png">
+	
+						<div class="bottom">
+							<h4>Standard</h4>
+		
+							<p><span class="Rupees">Rs.</span>7999<span class="month">/mo</span></p>
+		
+							<ul>
+								<li>50 users</li>
+								<li>120gb storage</li>
+								<li>Up to 500 reports</li>
+								<li>24/7 support</li>
+								<li>Basic finance</li>
+								<li>Standard security</li>						
+							</ul>
+		
+							<button>Select plan</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="outer slide-in">
+					<div class="plan best">
+						<img src="media/corporate-images/pro.png">
+	
+						<div class="bottom">
+							<h4>Pro</h4>
+	
+							<p><span class="Rupees">Rs.</span>12999<span class="month">/mo</span></p>
+		
+							<ul>
+								<li>200 users</li>
+								<li>500gb storage</li>
+								<li>Up to 1K reports</li>
+								<li>24/7 support</li>
+								<li>Upgraded finance</li>
+								<li>Better security</li>						
+							</ul>
+		
+							<button>Select plan</button>
+						</div>
+					</div>
+				</div>
+				
+				<div class="outer slide-in">
+					<div class="plan regular">
+						<img src="media/corporate-images/team.png">
+						<div class="bottom">
+							<h4>Team</h4>
+		
+							<p><span class="Rupees">Rs.</span>24999<span class="month">/mo</span></p>
+		
+							<ul>
+								<li>Unlimited users</li>
+								<li>2tb storage</li>
+								<li>Up to 4K reports</li>
+								<li>24/7 support</li>
+								<li>Top finance</li>
+								<li>Premium security</li>						
+							</ul>
+		
+							<button>Select plan</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="finance" viewBox="0 0 1440 800" width="1440" height="500" version="1.1" preserveAspectRatio="none"><path d="M0 175L60 198.3C120 221.7 240 268.3 360 292.8C480 317.3 600 319.7 720 302.5C840 285.3 960 248.7 1080 245.2C1200 241.7 1320 271.3 1380 286.2L1440 301L1440 0L1380 0C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0L0 0Z" fill="#016EEA" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+
+		<section class="finance">
+			<div class="media slide-in">
+				<img src="media/corporate-images/finance.png">
+			</div>
+			
+			<div class="text slide-in">
+				<h2>Finance</h2>
+
+				<p>We guarantee <b>Downtown</b> will start making money for you, fast. If you start losing money, no worries! Contact us, and we’ll reiumburse you everything.</p>
+
+				<p>As simple as that!</p>
+
+				<div class="buttons">
+					<button>Let's get started!</button>
+					<button class="secondary">Learn more</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="stats" id="stats">
+			<div class="container">
+				<div class="stat slide-in">
+					<img src="media/icons/sales.png">
+					
+					<h4>Sales</h4>
+					
+					<p>Sales, discounts and hot deals!</p>
+				</div>
+				
+				<div class="stat slide-in">
+					<img src="media/icons/cashback.png">
+					
+					<h4>Cashback</h4>
+					
+					<p>Get up to 1.5% back yearly.</p>
+				</div>
+				
+				<div class="stat slide-in">
+					<img src="media/icons/savings.png">
+					
+					<h4>Savings</h4>
+					
+					<p>You save and get the most out of it!</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="videoConf" id="videoConf">
+			<div class="text slide-in">
+				<div class="inner">
+					<h2>VideoConf</h2>
+
+					<span>New</span>
+				</div>
+
+				<p>With VideoConf, connect from anywhere for meetings, discussions, and more! Chat with your team, share your screen, or use reactions – all from the comfort of your home.</p>
+
+				<div class="buttons">
+					<button>Let's get started!</button>
+					
+					<button class="secondary">Learn more</button>
+				</div>
+			</div>
+			<div class="media slide-in">
+				<img src="media/corporate-images/videoConf.png">
+			</div>
+		</section>
+
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="visual" viewBox="0 0 1440 800" width="1440" height="500" version="1.1" preserveAspectRatio="none"><path d="M0 623L60 599.7C120 576.3 240 529.7 360 505.2C480 480.7 600 478.3 720 495.5C840 512.7 960 549.3 1080 552.8C1200 556.3 1320 526.7 1380 511.8L1440 497L1440 801L1380 801C1320 801 1200 801 1080 801C960 801 840 801 720 801C600 801 480 801 360 801C240 801 120 801 60 801L0 801Z" fill="#D4E7FF" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+
+		<section class="ready" id="ready">
+			<h2>Ready to promote your business today?</h2>
+			
+			<p>Start now with <b>Downtown</b>.</p>
+			
+			<img src="media/corporate-images/ready.png" class="slide-in">
+			
+			<div class="buttons">
+				<button>Let's get started</button>
+
+				<button class="secondary">View demo</button>
+			</div>
+		</section>
+		
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="contact" viewBox="0 0 1440 800" width="1440" height="500" version="1.1" preserveAspectRatio="none"><path d="M0 175L60 198.3C120 221.7 240 268.3 360 292.8C480 317.3 600 319.7 720 302.5C840 285.3 960 248.7 1080 245.2C1200 241.7 1320 271.3 1380 286.2L1440 301L1440 0L1380 0C1320 0 1200 0 1080 0C960 0 840 0 720 0C600 0 480 0 360 0C240 0 120 0 60 0L0 0Z" fill="#D4E7FF" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+
+		<section class="contact" id="contact">
+			<h2>Contact</h2>
+			
+			<p>Leave a message below to get in touch.</p>
+			
+			<div class="container">
+				<div class="form">
+					<div class="name">
+						<input type="text" placeholder="First name">
+						
+						<input type="text" placeholder="Last name">
+					</div>
+
+					<input type="text" placeholder="Email">
+
+					<textarea placeholder="Message"></textarea>
+
+					<button>Let's get started!</button>
+				</div>
+				
+				<img src="media/corporate-images/contact.png">
+			</div>
+		</section>
+
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="visual" viewBox="0 0 1440 800" width="1440" height="500" version="1.1" preserveAspectRatio="none"><path d="M0 623L60 599.7C120 576.3 240 529.7 360 505.2C480 480.7 600 478.3 720 495.5C840 512.7 960 549.3 1080 552.8C1200 556.3 1320 526.7 1380 511.8L1440 497L1440 801L1380 801C1320 801 1200 801 1080 801C960 801 840 801 720 801C600 801 480 801 360 801C240 801 120 801 60 801L0 801Z" fill="#e6e7eb" stroke-linecap="round" stroke-linejoin="miter"/></svg>
+
+
+		<footer>
+			<div class="column">
+				<h1>Downtown</h1>
+
+				<p>The marketing tool, perfect for your business.</p>
+			</div>
+
+			<div class="column second">
+				<div class="inner">
+					<h4>About</h4>
+					
+					<a href="#trusted"><span>Trusted by</span></a>
+
+					<a href="#values"><span>Values</span></a>
+
+					<a href="#about"><span>About us</span></a>
+				</div>
+
+				<div class="inner">
+					<h4>Legal</h4>
+
+					<a href=""><span>Terms and conditions</span></a>
+
+					<a href=""><span>Privacy policy</span></a>
+				</div>
+			</div>
+
+			<div class="column">
+				<h4>Product</h4>
+
+				<a href="#what"><span>What</span></a>
+
+				<a href="#services"><span>Services</span></a>
+
+				<a href="#pricing"><span>Pricing</span></a>
+
+				<a href="#finance"><span>Finance</span></a>
+
+				<a href="#stats"><span>Stats</span></a>
+
+				<div class="container">
+					<a href="#videoConf"><span>VideoConf</span></a>
+
+					<span class="new">New</span>
+				</div>
+			</div>
+
+			<div class="column">
+				<h4>Social</h4>
+
+				<a href="#testimonials"><span>Testimonials</span></a>
+
+				<a href=""><span>Twitter</span></a>
+
+				<a href=""><span>Facebook</span></a>
+
+				<a href=""><span>Instagram</span></a>
+
+				<a href=""><span>LinkedIn</span></a>
+			</div>
+
+			<div class="column">
+				<button>Let's get started!</button>
+
+				<button class="secondary">View demo</button>
+			</div>
+		</footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
